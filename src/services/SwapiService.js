@@ -1,5 +1,5 @@
 const SWAPI_PEOPLE_BASE_URL="https://swapi.co/api/people";
-const SWAPI_PLANET_BASE_URL="https://swapi.co/api/planets/";
+const SWAPI_PLANET_BASE_URL="https://swapi.co/api/planets";
 
 const SwapiService =  {
     _headers() {
@@ -22,13 +22,13 @@ const SwapiService =  {
         return fetch(`${SWAPI_PEOPLE_BASE_URL}?name=${name}`, request).then(this._responseToJson)
     },
 
-    getPlanets(){
+    getPlanets(name){
         const request = {
             method: 'GET',
             headers: this._headers()
         };
 
-        return fetch(`${SWAPI_PLANET_BASE_URL}`, request).then(this._responseToJson)
+        return fetch(`${SWAPI_PLANET_BASE_URL}?name=${name}`, request).then(this._responseToJson)
     }
 };
 

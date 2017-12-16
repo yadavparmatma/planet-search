@@ -1,7 +1,6 @@
 .planet-search {
     width: 200px;
     height: 45px;
-    horiz-align: center;
     display: inline-block;
     float: left;
 }
@@ -14,4 +13,22 @@
 .search-wrapper {
     padding-left: 40%;
     padding-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.climate .terrain .population {
+    padding-left: 50px;
+}
+
+span{
+    padding-left: 200px;
 }

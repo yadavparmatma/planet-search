@@ -13,6 +13,8 @@ class Login extends Component {
     }
 
     login(character) {
+        if(character.name === '' || character.password === '') return;
+
         SwapiService.getCharacter(character.name).then(response => {
             const authenticatedUser = authenticateUser(response.results, character);
             if (authenticatedUser.length === 1){
