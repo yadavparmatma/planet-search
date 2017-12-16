@@ -21,7 +21,8 @@
     "watch": "webpack --watch --config webpack.config.js",
     "start": "webpack-dev-server ./src --hot --inline --host 0.0.0.0 --port 8084  --config webpack.config.js",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "homepage":"https://yadavparmatma/planet-search"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
