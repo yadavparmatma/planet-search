@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import './App.css';
 import {Route} from "react-router-dom";
-import Login from "./features/login/Login";
+import LoginContainer from "./features/login/LoginContainer";
 
 class App extends Component {
     constructor(props) {
@@ -18,7 +18,7 @@ class App extends Component {
                 <p className="App-intro">
                     Justttttt 1 step away from awesome planet view
                 </p>
-                <Route path={"/"} render={(props) => <Login {...props} />}/>
+                <Route path={"/"} render={(props) => <LoginContainer {...props} />}/>
             </div>
         );
     }

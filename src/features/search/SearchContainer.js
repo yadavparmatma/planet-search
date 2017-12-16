@@ -3,7 +3,8 @@ import {setPlanets} from "../../actions/planets";
 import Search from "./search";
 
 export const mapStateToProps = state => ({
-    planet: state.app.planet,
+    isLoggedIn: state.app.login.isLoggedIn,
+    planet: state.app.planet
 });
 
 export const mapDispatchToProps = dispatch => ({

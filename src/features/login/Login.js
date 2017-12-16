@@ -15,9 +15,14 @@ class Login extends Component {
     login(character) {
         SwapiService.getCharacter(character.name).then(response => {
             const authenticatedUser = authenticateUser(response.results, character);
-            authenticatedUser.length === 1 ? this.props.history.push("search") : alert("Invalid credentials");
+            if (authenticatedUser.length === 1){
+                this.props.history.push("search");
+                this.props.setLoginStatus(true);
+            }else {
+                alert("Invalid credentials");
+            }
         }).catch(e => {
-            alert(`Errror: ${e.message}`)
+            alert(`Errror: ${e.message}`);
         });
     };
 

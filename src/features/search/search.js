@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './planet.css'
 import {Button, ButtonToolbar, FormControl, FormGroup} from "react-bootstrap";
 import SwapiService from "../../services/SwapiService";
+import {Route} from "react-router-dom";
+import App from "../../App";
 
 class Search extends Component {
     constructor(props) {
@@ -18,6 +20,11 @@ class Search extends Component {
     }
 
     render() {
+        console.log(this.props.isLoggedIn, "<>")
+        if (!this.props.isLoggedIn) {
+            return (<Route path={"/"} component={App}/>)
+        }
+
         return (
             <div className="App">
                 <header className="App-header">
