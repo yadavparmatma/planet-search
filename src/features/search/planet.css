@@ -1,0 +1,17 @@
+.planet-search {
+    width: 200px;
+    height: 45px;
+    horiz-align: center;
+    display: inline-block;
+    float: left;
+}
+
+.search-button {
+    display: inline-flex;
+    float: right;
+}
+
+.search-wrapper {
+    padding-left: 40%;
+    padding-top: 50px;
+}
