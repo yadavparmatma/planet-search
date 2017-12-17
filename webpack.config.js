@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const HOST = process.env.HOST || "127.0.0.1";
+const HOST = process.env.HOST || "0.0.0.0";
 const PORT = process.env.PORT || "8080";
 
 
@@ -33,16 +33,13 @@ module.exports = {
         contentBase: './',
         host:HOST,
         port:PORT,
+        compress: true,
+        disableHostCheck: true,
         stats: {
             assets: true,
             timings: true,
             warnings: true,
-            children: false,
-            chunks: false,
-            hash: false,
-            modules: false,
-            publicPath: false,
-            version: false
+            publicPath: true
         }
     }
 }

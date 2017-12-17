@@ -5,6 +5,7 @@
   "engines": {
     "node": "6.10.2"
   },
+  "homepage":"https://github.com/yadavparmatma/planet-search#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -24,12 +25,16 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^2.9.7",
+    "webpack-hot-middleware": "^2.7.1",
+    "webpack-dev-middleware": "^1.5.1",
+    "json-loader": "^0.5.4"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack -p --config ./webpack.config.js",
     "watch": "webpack --watch --config webpack.config.js",
     "start": "webpack-dev-server ./src --config webpack.config.js",
+    "clean": "rm -rf build",
     "test": "jest",
     "test:watch": "jest --watch"
   },
