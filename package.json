@@ -22,10 +22,12 @@
     "start": "webpack-dev-server ./src --hot --inline --host 0.0.0.0 --port 8084  --config webpack.config.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "homepage":"https://yadavparmatma/planet-search"
+    "homepage": "https://yadavparmatma/planet-search",
+    "deploy" : "npm run build && gh-pages -d build"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
+    "gh-pages": "^1.1.0",
     "html-webpack-plugin": "^2.30.1",
     "react-bootstrap": "^0.31.5",
     "react-form": "^2.14.4",
