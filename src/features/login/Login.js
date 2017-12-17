@@ -13,14 +13,14 @@ class Login extends Component {
     }
 
     login(character) {
-        if(character.name === '' || character.password === '') return;
+        if (character.name === '' || character.password === '') return;
 
         SwapiService.getCharacter(character.name).then(response => {
             const authenticatedUser = authenticateUser(response.results, character);
-            if (authenticatedUser.length === 1){
+            if (authenticatedUser.length === 1) {
                 this.props.history.push("search");
                 this.props.setLoginStatus(true);
-            }else {
+            } else {
                 alert("Invalid credentials");
             }
         }).catch(e => {
@@ -30,13 +30,16 @@ class Login extends Component {
 
     render() {
         return (
-            <Form className="Login" onSubmit={this.login}>
+            <Form className="login" onSubmit={this.login}>
                 {({submitForm}) =>
-                    (<form onSubmit={submitForm}>
-                        <Text className={"userName"} placeholder={"Username"} field={"name"}/>
-                        <Text className={"password"} type={"password"} placeholder={"Password"} field={"password"}/>
-                        <button className="login-button" type="submit">Login</button>
-                    </form>)
+                    (
+                        <form className="form-signin" onSubmit={submitForm}>
+                            <h3 className="form-signin-heading">Login: using planet character</h3>
+                            <Text className="form-control" placeholder={"Username"} field={"name"}/>
+                            <Text className="form-control" type={"password"} placeholder={"Password"} field={"password"}/>
+                            <button className="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+                        </form>
+                    )
                 }
             </Form>
         );
