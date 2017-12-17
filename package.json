@@ -2,6 +2,9 @@
   "name": "planet-search",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "6.10.2"
+  },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -25,7 +28,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --watch --config webpack.config.js",
-    "start": "webpack-dev-server ./src --hot --inline --host 0.0.0.0 --port 8084  --config webpack.config.js",
+    "start": "webpack-dev-server ./src --hot --inline --host 0.0.0.0 --port 80  --config webpack.config.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },
