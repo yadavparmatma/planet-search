@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should match snapshot 1`] = `
+<div
+  className="search-result"
+>
+  <ul
+    className="planet-list"
+  >
+    <li
+      className="planet-list-item"
+      onClick={[Function]}
+    >
+      <div
+        className="population"
+      >
+        <hr />
+        <span
+          className="population"
+        >
+          Planet population: 
+          20000
+        </span>
+      </div>
+    </li>
+    <li
+      className="planet-list-item"
+      onClick={[Function]}
+    >
+      <div
+        className="population"
+      >
+        <hr />
+        <span
+          className="population"
+        >
+          Planet population: 
+          200
+        </span>
+      </div>
+    </li>
+    <li
+      className="planet-list-item"
+      onClick={[Function]}
+    >
+      <div
+        className="population"
+      >
+        <hr />
+        <span
+          className="population"
+        >
+          Planet population: 
+          190
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
