@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33da5a3-d1d6-4299-ad36-cb007db62fbe" name="Default" comment="" />
+    <list default="true" id="b33da5a3-d1d6-4299-ad36-cb007db62fbe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/SwapiService.spec.js" afterPath="$PROJECT_DIR$/src/services/SwapiService.spec.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,13 +13,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/login/Login.js">
+      <file leaf-file-name="SearchContainer.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/search/SearchContainer.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginContainer.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/login/LoginContainer.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/login/LoginContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/login/Login.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwapiService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/SwapiService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwapiService.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/SwapiService.spec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding>
-                <marker date="1513529574000" expanded="true" signature="1003:1662" ph="..." />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,62 +87,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/login.js">
+      <file leaf-file-name="Login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/features/login/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/login/LoginContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/search/search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-reducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/login-reducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/user-login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="390">
+              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1513612944000" expanded="true" signature="1003:1662" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login-reducer.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/login-reducer.spec.js">
+      <file leaf-file-name="Search.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/search/Search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -160,19 +167,25 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/features/login/Login.js" />
         <option value="$PROJECT_DIR$/src/features/login/LoginContainer.js" />
         <option value="$PROJECT_DIR$/src/actions/login.spec.js" />
         <option value="$PROJECT_DIR$/src/reducers/login-reducer.spec.js" />
         <option value="$PROJECT_DIR$/src/features/login/login.spec.js" />
         <option value="$PROJECT_DIR$/testSetup.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/features/login/LoginContainer.spec.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/config/test-setup.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/features/login/Login.css" />
+        <option value="$PROJECT_DIR$/src/features/search/Search.js" />
+        <option value="$PROJECT_DIR$/src/features/search/Search.spec.js" />
+        <option value="$PROJECT_DIR$/config/test-setup.js" />
+        <option value="$PROJECT_DIR$/config/shim.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/features/search/SearchContainer.spec.js" />
+        <option value="$PROJECT_DIR$/src/features/login/LoginContainer.spec.js" />
+        <option value="$PROJECT_DIR$/src/features/login/Login.spec.js" />
+        <option value="$PROJECT_DIR$/src/features/login/Login.js" />
+        <option value="$PROJECT_DIR$/src/services/SwapiService.spec.js" />
       </list>
     </option>
   </component>
@@ -219,13 +232,12 @@
             <path>
               <item name="planet-search" type="b2602c69:ProjectViewProjectNode" />
               <item name="planet-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="planet-search" type="b2602c69:ProjectViewProjectNode" />
               <item name="planet-search" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="planet-search" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +280,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -288,57 +300,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.LoginContainer">
-    <configuration name="Login Action" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Swapi Service.should return panet">
+    <configuration name="Login (2)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/actions/login.spec.js" />
-      <test-names>
-        <test-name value="Login Action" />
-      </test-names>
-    </configuration>
-    <configuration name="Login (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/features/login/login.spec.js" />
+      <test-file value="$PROJECT_DIR$/src/features/login/Login.spec.js" />
       <test-names>
         <test-name value="Login" />
       </test-names>
     </configuration>
-    <configuration name="Login" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/reducers/login-reducer.spec.js" />
-      <test-names>
-        <test-name value="Login" />
-      </test-names>
-    </configuration>
-    <configuration name="LoginContainer" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/features/login/LoginContainer.spec.js" />
-      <test-names>
-        <test-name value="LoginContainer" />
-      </test-names>
-    </configuration>
-    <configuration name="LoginContainer.mapDispatchToProps.should map setLoginStatus to prop" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="Login.should call getCharacter with name" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/features/login/LoginContainer.spec.js" />
+      <test-file value="$PROJECT_DIR$/src/features/login/Login.spec.js" />
       <test-names>
-        <test-name value="LoginContainer" />
-        <test-name value="mapDispatchToProps" />
-        <test-name value="should map setLoginStatus to prop" />
+        <test-name value="Login" />
+        <test-name value="should call getCharacter with name" />
+      </test-names>
+    </configuration>
+    <configuration name="Login.should match snapshot" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/features/login/Login.spec.js" />
+      <test-names>
+        <test-name value="Login" />
+        <test-name value="should match snapshot" />
+      </test-names>
+    </configuration>
+    <configuration name="Search" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/features/search/Search.spec.js" />
+      <test-names>
+        <test-name value="Search" />
+      </test-names>
+    </configuration>
+    <configuration name="Swapi Service.should return panet" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/services/SwapiService.spec.js" />
+      <test-names>
+        <test-name value="Swapi Service" />
+        <test-name value="should return panet" />
       </test-names>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -422,19 +435,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Jest.Login Action" />
-      <item index="1" class="java.lang.String" itemvalue="Jest.Login" />
-      <item index="2" class="java.lang.String" itemvalue="Jest.Login (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Jest.LoginContainer" />
-      <item index="4" class="java.lang.String" itemvalue="Jest.LoginContainer.mapDispatchToProps.should map setLoginStatus to prop" />
+      <item index="0" class="java.lang.String" itemvalue="Jest.Login (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.Login.should match snapshot" />
+      <item index="2" class="java.lang.String" itemvalue="Jest.Search" />
+      <item index="3" class="java.lang.String" itemvalue="Jest.Login.should call getCharacter with name" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.Swapi Service.should return panet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Jest.LoginContainer" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.LoginContainer.mapDispatchToProps.should map setLoginStatus to prop" />
-        <item index="2" class="java.lang.String" itemvalue="Jest.Login (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Jest.Login" />
-        <item index="4" class="java.lang.String" itemvalue="Jest.Login Action" />
+        <item index="0" class="java.lang.String" itemvalue="Jest.Swapi Service.should return panet" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.Login.should call getCharacter with name" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.Search" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.Login (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.Login.should match snapshot" />
       </list>
     </recent_temporary>
   </component>
@@ -459,44 +472,44 @@
       <workItem from="1513347137923" duration="4813000" />
       <workItem from="1513352065910" duration="38988000" />
       <workItem from="1513428443023" duration="2852000" />
-      <workItem from="1513600920695" duration="3867000" />
+      <workItem from="1513600920695" duration="9415000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Login - 2017.12.18 at 18h 19m 06s.xml">
-      <configuration name="Login" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Login_should_call_getCharacter_with_name - 2017.12.18 at 21h 21m 52s.xml">
+      <configuration name="Login.should call getCharacter with name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Login - 2017.12.18 at 18h 19m 40s.xml">
-      <configuration name="Login" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Login_should_call_getCharacter_with_name - 2017.12.18 at 21h 22m 11s.xml">
+      <configuration name="Login.should call getCharacter with name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="LoginContainer - 2017.12.18 at 18h 47m 41s.xml">
-      <configuration name="LoginContainer" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Login_should_call_getCharacter_with_name - 2017.12.18 at 21h 22m 25s.xml">
+      <configuration name="Login.should call getCharacter with name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="LoginContainer - 2017.12.18 at 18h 54m 43s.xml">
-      <configuration name="LoginContainer" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Login_should_call_getCharacter_with_name - 2017.12.18 at 21h 22m 46s.xml">
+      <configuration name="Login.should call getCharacter with name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="LoginContainer - 2017.12.18 at 18h 58m 38s.xml">
-      <configuration name="LoginContainer" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Login_should_call_getCharacter_with_name - 2017.12.18 at 21h 23m 08s.xml">
+      <configuration name="Login.should call getCharacter with name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="LoginContainer_mapDispatchToProps_should_map_setLoginStatus_to_prop - 2017.12.18 at 18h 54m 48s.xml">
-      <configuration name="LoginContainer.mapDispatchToProps.should map setLoginStatus to prop" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Login_should_call_getCharacter_with_name - 2017.12.18 at 21h 24m 10s.xml">
+      <configuration name="Login.should call getCharacter with name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Login_(1) - 2017.12.18 at 18h 25m 32s.xml">
-      <configuration name="Login (1)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Login_should_call_getCharacter_with_name - 2017.12.18 at 21h 25m 40s.xml">
+      <configuration name="Login.should call getCharacter with name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Login_(1) - 2017.12.18 at 18h 26m 44s.xml">
-      <configuration name="Login (1)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Login_should_call_getCharacter_with_name - 2017.12.18 at 21h 25m 51s.xml">
+      <configuration name="Login.should call getCharacter with name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Login_(1) - 2017.12.18 at 18h 28m 33s.xml">
-      <configuration name="Login (1)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Login_should_call_getCharacter_with_name - 2017.12.18 at 21h 26m 39s.xml">
+      <configuration name="Login.should call getCharacter with name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Login_(1) - 2017.12.18 at 18h 30m 46s.xml">
-      <configuration name="Login (1)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Swapi_Service_should_return_panet - 2017.12.18 at 21h 33m 11s.xml">
+      <configuration name="Swapi Service.should return panet" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62288000" />
+    <option name="totallyTimeSpent" value="67836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -516,11 +529,12 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2546495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -528,7 +542,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,39 +551,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/react-router/Switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-router/MemoryRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-router/Redirect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/people-reducer.spec.js" />
     <entry file="file://$PROJECT_DIR$/src/reducers/people-reducer.js" />
     <entry file="file://$PROJECT_DIR$/src/actions/people.js" />
     <entry file="file://$PROJECT_DIR$/src/services/PlanetService.js" />
@@ -590,14 +576,6 @@
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/search/search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,13 +616,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -712,84 +683,84 @@
         <state relative-caret-position="-5683">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513604298000" expanded="true" signature="418261:418269" ph="{...}" />
-            <marker date="1513604298000" expanded="true" signature="418261:418275" ph="{&quot;version&quot;: &quot;2.9.7&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="418308:419374" ph="{&quot;version&quot;: &quot;1.3.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="418580:418646" ph="{&quot;fs-extra&quot;: &quot;0.30.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="418670:419368" ph="{...}" />
-            <marker date="1513604298000" expanded="true" signature="418692:419083" ph="{&quot;version&quot;: &quot;0.30.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="418890:419073" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="419105:419360" ph="{&quot;version&quot;: &quot;2.4.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="419301:419350" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="419399:419736" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="419655:419730" ph="{&quot;source-list-map&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="419762:420048" ph="{&quot;version&quot;: &quot;0.7.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="419958:420042" ph="{&quot;http-parser-js&quot;: &quot;0.4.9&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="420078:420330" ph="{&quot;version&quot;: &quot;0.1.3&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="420355:420657" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="420611:420651" ph="{&quot;iconv-lite&quot;: &quot;0.4.19&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="420679:420853" ph="{&quot;version&quot;: &quot;2.0.3&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="420873:421401" ph="{&quot;version&quot;: &quot;4.8.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="421057:421129" ph="{&quot;tr46&quot;: &quot;0.0.3&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="421153:421395" ph="{...}" />
-            <marker date="1513604298000" expanded="true" signature="421185:421387" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="421422:421594" ph="{&quot;version&quot;: &quot;0.9.9&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="421609:421885" ph="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="421845:421879" ph="{&quot;isexe&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="421907:422081" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="422102:423063" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="422288:422329" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="422353:423057" ph="{...}" />
-            <marker date="1513604298000" expanded="true" signature="422390:422676" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="422616:422666" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="422702:423049" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="422906:423039" ph="{&quot;code-point-at&quot;: &quot;1.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="423084:423256" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="423274:423440" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="423461:423775" ph="{&quot;version&quot;: &quot;1.5.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="423709:423769" ph="{&quot;errno&quot;: &quot;0.1.6&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="423794:424782" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="423976:424048" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="424072:424776" ph="{...}" />
-            <marker date="1513604298000" expanded="true" signature="424109:424395" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="424335:424385" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="424421:424768" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="424625:424758" ph="{&quot;code-point-at&quot;: &quot;1.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="424798:424960" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="424975:425190" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="425149:425184" ph="{&quot;mkdirp&quot;: &quot;0.5.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="425217:425520" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="425415:425514" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="425541:425772" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="425727:425766" ph="{&quot;os-homedir&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="425798:425980" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="426008:426194" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="426209:426369" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="426383:426541" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="426558:426722" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="426737:431129" ph="{&quot;version&quot;: &quot;9.0.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="426930:427360" ph="{&quot;camelcase&quot;: &quot;4.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="427384:431123" ph="{...}" />
-            <marker date="1513604298000" expanded="true" signature="427407:427614" ph="{&quot;version&quot;: &quot;4.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="427633:428454" ph="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="427846:427964" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="427992:428444" ph="{...}" />
-            <marker date="1513604298000" expanded="true" signature="428022:428432" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="428269:428418" ph="{&quot;code-point-at&quot;: &quot;1.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="428491:428800" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="428740:428790" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="428828:429216" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="429059:429206" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="429239:429631" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="429522:429621" ph="{&quot;execa&quot;: &quot;0.7.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="429654:429926" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="429875:429916" ph="{&quot;pify&quot;: &quot;2.3.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="429948:430309" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="430167:430299" ph="{&quot;load-json-file&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="430334:430646" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="430559:430636" ph="{&quot;find-up&quot;: &quot;2.1.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="430669:430876" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
-            <marker date="1513604298000" expanded="true" signature="430902:431115" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="418672:418680" ph="{...}" />
+            <marker date="1513612699000" expanded="true" signature="418672:418686" ph="{&quot;version&quot;: &quot;2.9.7&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="418719:419785" ph="{&quot;version&quot;: &quot;1.3.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="418991:419057" ph="{&quot;fs-extra&quot;: &quot;0.30.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="419081:419779" ph="{...}" />
+            <marker date="1513612699000" expanded="true" signature="419103:419494" ph="{&quot;version&quot;: &quot;0.30.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="419301:419484" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="419516:419771" ph="{&quot;version&quot;: &quot;2.4.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="419712:419761" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="419810:420147" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="420066:420141" ph="{&quot;source-list-map&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="420173:420459" ph="{&quot;version&quot;: &quot;0.7.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="420369:420453" ph="{&quot;http-parser-js&quot;: &quot;0.4.9&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="420489:420741" ph="{&quot;version&quot;: &quot;0.1.3&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="420766:421068" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="421022:421062" ph="{&quot;iconv-lite&quot;: &quot;0.4.19&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="421090:421264" ph="{&quot;version&quot;: &quot;2.0.3&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="421284:421812" ph="{&quot;version&quot;: &quot;4.8.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="421468:421540" ph="{&quot;tr46&quot;: &quot;0.0.3&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="421564:421806" ph="{...}" />
+            <marker date="1513612699000" expanded="true" signature="421596:421798" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="421833:422005" ph="{&quot;version&quot;: &quot;0.9.9&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="422020:422296" ph="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="422256:422290" ph="{&quot;isexe&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="422318:422492" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="422513:423474" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="422699:422740" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="422764:423468" ph="{...}" />
+            <marker date="1513612699000" expanded="true" signature="422801:423087" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="423027:423077" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="423113:423460" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="423317:423450" ph="{&quot;code-point-at&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="423495:423667" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="423685:423851" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="423872:424186" ph="{&quot;version&quot;: &quot;1.5.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="424120:424180" ph="{&quot;errno&quot;: &quot;0.1.6&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="424205:425193" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="424387:424459" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="424483:425187" ph="{...}" />
+            <marker date="1513612699000" expanded="true" signature="424520:424806" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="424746:424796" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="424832:425179" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="425036:425169" ph="{&quot;code-point-at&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="425209:425371" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="425386:425601" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="425560:425595" ph="{&quot;mkdirp&quot;: &quot;0.5.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="425628:425931" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="425826:425925" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="425952:426183" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="426138:426177" ph="{&quot;os-homedir&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="426209:426391" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="426419:426605" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="426620:426780" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="426794:426952" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="426969:427133" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="427148:431540" ph="{&quot;version&quot;: &quot;9.0.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="427341:427771" ph="{&quot;camelcase&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="427795:431534" ph="{...}" />
+            <marker date="1513612699000" expanded="true" signature="427818:428025" ph="{&quot;version&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="428044:428865" ph="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="428257:428375" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="428403:428855" ph="{...}" />
+            <marker date="1513612699000" expanded="true" signature="428433:428843" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="428680:428829" ph="{&quot;code-point-at&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="428902:429211" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="429151:429201" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="429239:429627" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="429470:429617" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="429650:430042" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="429933:430032" ph="{&quot;execa&quot;: &quot;0.7.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="430065:430337" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="430286:430327" ph="{&quot;pify&quot;: &quot;2.3.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="430359:430720" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="430578:430710" ph="{&quot;load-json-file&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="430745:431057" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="430970:431047" ph="{&quot;find-up&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="431080:431287" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="431313:431526" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -810,42 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/SwapiService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="20" column="87" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/login/LoginContainer.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/login/Login.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -885,14 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/test-setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/login.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -909,10 +840,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/search/SearchContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/actions/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/login-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/user-login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/login/__snapshots__/Login.spec.js.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/search/Search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/shim.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test-setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#29#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="57" column="6" lean-forward="false" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+          <folding>
+            <marker date="1513612699000" expanded="true" signature="1069:1277" ph="{&quot;babel-jest&quot;: &quot;^22.0.0&quot;...}" />
+            <marker date="1513612699000" expanded="true" signature="1599:1629" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/search/Search.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/login/LoginContainer.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/login/Login.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/login/LoginContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/SwapiService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -925,61 +977,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/login.js">
+    <entry file="file://$PROJECT_DIR$/src/features/search/SearchContainer.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/search/SearchContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/SwapiService.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/search/Search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/login/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="390">
           <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
           <folding>
-            <marker date="1513529574000" expanded="true" signature="1003:1662" ph="..." />
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1513612944000" expanded="true" signature="1003:1662" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/login/LoginContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/search/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/login-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/user-login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

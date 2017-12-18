@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1
+      className="App-title"
+    >
+      Welcome
+    </h1>
+  </header>
+  <div
+    className="search-wrapper"
+  >
+    <div
+      className="form-group"
+    >
+      <input
+        className="planet-search form-control"
+        id={undefined}
+        onChange={[Function]}
+        placeholder="Planet"
+        type="text"
+      />
+      <div
+        className="btn-toolbar"
+        role="toolbar"
+      >
+        <button
+          className="search-button btn btn-lg btn-default"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="planet-container"
+  >
+    <div
+      className="search-result"
+    >
+      <ul
+        className="planet-list"
+      />
+    </div>
+  </div>
+</div>
+`;

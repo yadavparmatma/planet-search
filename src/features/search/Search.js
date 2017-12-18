@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './search.css'
+import './Search.css'
 import {Button, ButtonToolbar, FormControl, FormGroup} from "react-bootstrap";
 import SwapiService from "../../services/SwapiService";
 import SearchResult from "./SearchResult";
@@ -30,7 +30,9 @@ class Search extends Component {
 
     render() {
         if (!this.props.isLoggedIn) {
-            return (<Redirect to={"/"} component={App}/>)
+            return (
+                <Redirect to={"/"} component={App}/>
+            )
         }
         return (
             <div className="App">

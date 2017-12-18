@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import Search from "./search";
+import Search from "./Search";
 
 export const mapStateToProps = state => ({
     isLoggedIn: state.app.login.isLoggedIn

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should match snapshot 1`] = `
+<form
+  className="form-signin"
+  onSubmit={[Function]}
+>
+  <h3
+    className="form-signin-heading"
+  >
+    Login: using planet character
+  </h3>
+  <input
+    className="form-control"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Username"
+    value=""
+  />
+  <input
+    className="form-control"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Password"
+    type="password"
+    value=""
+  />
+  <button
+    className="btn btn-lg btn-primary btn-block"
+    type="submit"
+  >
+    Login
+  </button>
+</form>
+`;

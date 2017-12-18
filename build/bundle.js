@@ -47349,7 +47349,7 @@ exports.mapStateToProps = undefined;
 
 var _reactRedux = __webpack_require__("./node_modules/react-redux/es/index.js");
 
-var _search = __webpack_require__("./src/features/search/search.js");
+var _search = __webpack_require__("./src/features/search/Search.js");
 
 var _search2 = _interopRequireDefault(_search);
 
@@ -47381,7 +47381,7 @@ var _react = __webpack_require__("./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__("./src/features/search/search.css");
+__webpack_require__("./src/features/search/Search.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -47501,7 +47501,7 @@ exports.default = SearchResult;
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js!./src/features/search/search.css");
+var content = __webpack_require__("./node_modules/css-loader/index.js!./src/features/search/Search.css");
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -47515,8 +47515,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!./search.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!./search.css");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!./Search.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!./Search.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -47543,7 +47543,7 @@ var _react = __webpack_require__("./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__("./src/features/search/search.css");
+__webpack_require__("./src/features/search/Search.css");
 
 var _reactBootstrap = __webpack_require__("./node_modules/react-bootstrap/es/index.js");
 
