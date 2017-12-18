@@ -15,7 +15,7 @@ A Planet Search App
         
         npm start
         
-        then hit the browser http://localhost:8084
+        then hit the browser http://localhost:8080
         
 
 * How to Use

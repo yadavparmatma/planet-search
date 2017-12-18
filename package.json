@@ -5,30 +5,26 @@
   "engines": {
     "node": "6.10.2"
   },
-  "homepage":"https://github.com/yadavparmatma/planet-search#readme",
+  "homepage": "https://github.com/yadavparmatma/planet-search#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.7",
     "html-webpack-plugin": "^2.30.1",
-    "isomorphic-fetch": "^2.2.1",
     "path": "^0.12.7",
     "process": "^0.11.10",
-    "react": "^16.2.0",
     "react-bootstrap": "^0.31.5",
-    "react-dom": "^16.2.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
     "react-form": "^2.14.4",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7",
-    "webpack-hot-middleware": "^2.7.1",
     "webpack-dev-middleware": "^1.5.1",
-    "json-loader": "^0.5.4"
+    "webpack-dev-server": "^2.9.7",
+    "webpack-hot-middleware": "^2.7.1"
   },
   "scripts": {
     "build": "webpack -p --config ./webpack.config.js",
@@ -39,7 +35,26 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
+    "babel-jest": "^22.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-to-json": "^3.3.0",
+    "isomorphic-fetch": "^2.2.1",
     "jest": "^21.2.1",
-    "jest-cli": "^21.2.1"
+    "jest-cli": "^21.2.1",
+    "react-test-renderer": "^16.2.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/config/test-setup.js"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|scss|jpg|png)$": "<rootDir>/.mocks/empty-module.js"
+    }
   }
 }

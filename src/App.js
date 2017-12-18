@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import './App.css';
-import {Route} from "react-router-dom";
+import {Route, Router} from "react-router-dom";
 import LoginContainer from "./features/login/LoginContainer";
 
 class App extends Component {

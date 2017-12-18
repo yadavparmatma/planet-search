@@ -6,5 +6,4 @@ export const mapDispatchToProps = dispatch => ({
     setLoginStatus: (status) => dispatch(setLoginStatus(status))
 });
 
-
 export default connect(null, mapDispatchToProps)(Login);
