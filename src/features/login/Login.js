@@ -18,8 +18,8 @@ class Login extends Component {
         SwapiService.getCharacter(character.name).then(response => {
             const authenticatedUser = authenticateUser(response.results, character);
             if (authenticatedUser.length === 1) {
-                this.props.history.push("search");
                 this.props.setLoginStatus(true);
+                this.props.history.push("search");
             } else {
                 alert("Invalid credentials");
             }

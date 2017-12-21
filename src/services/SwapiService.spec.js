@@ -7,14 +7,14 @@ describe("Swapi Service", () => {
         fetchMock.restore();
     });
 
-    const SWAPI_PEOPLE_BASE_URL = "https://swapi.co/api/people";
-    const SWAPI_PLANET_BASE_URL = "https://swapi.co/api/planets";
+    const SWAPI_PEOPLE_BASE_URL = "https://swapi.co/api/people/";
+    const SWAPI_PLANET_BASE_URL = "https://swapi.co/api/planets/";
 
     it("should return character", (done) => {
         const character = {"name": "Luke Skywalker"};
 
         const response = new Response(JSON.stringify(character), {status: 200});
-        fetchMock.once(`${SWAPI_PEOPLE_BASE_URL}?name=Luke`, response);
+        fetchMock.once(`${SWAPI_PEOPLE_BASE_URL}?search=Luke`, response);
 
         SwapiService.getCharacter("Luke")
             .then((res) => {
@@ -28,7 +28,7 @@ describe("Swapi Service", () => {
         const palnet = [{"name": "Terrian"}];
 
         const response = new Response(JSON.stringify(palnet), {status: 200});
-        fetchMock.once(`${SWAPI_PLANET_BASE_URL}?name=ter`, response);
+        fetchMock.once(`${SWAPI_PLANET_BASE_URL}?search=ter`, response);
 
         SwapiService.getPlanets("ter")
             .then((res) => {
