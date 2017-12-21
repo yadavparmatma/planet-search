@@ -11,7 +11,6 @@ class Search extends Component {
         super(props);
 
         this.state = {
-            searchTerm: '',
             planets: []
         };
 
@@ -19,9 +18,7 @@ class Search extends Component {
     }
 
     searchPlanet(e) {
-        this.setState({searchTerm: e.target.value});
-
-        SwapiService.getPlanets(this.state.searchTerm).then((response) => {
+        SwapiService.getPlanets(e.target.value).then((response) => {
             this.setState({planets: response['results']});
         }).catch((e) => {
             alert(`Error: ${e.message}`);
